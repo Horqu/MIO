@@ -97,4 +97,4 @@ def Solve():
     return x, y, z, w, best_solution_adaptation
 
 x, y, z, w, value = Solve()
-print('x =', x, ', y =', y, ', z =', z,', w =', w,', largest value =', value)
+print(f"A = {x}, B = {y}, C = {z}, D = {w}, result = {value}")
